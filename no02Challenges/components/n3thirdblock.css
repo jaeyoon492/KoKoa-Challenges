@@ -1,0 +1,30 @@
+.third__block {
+  width: 200px;
+  height: 400px;
+}
+
+.third__top__bar {
+  width: 200px;
+  height: 15px;
+  background-color: burlywood;
+}
+
+.third__sec__bar {
+  background-color: white;
+  height: 50px;
+}
+
+.third__thd__bar {
+  background-color: white;
+  height: 50px;
+}
+
+.third__bot__bar {
+  width: 200px;
+  height: 265px;
+  background-color: burlywood;
+}
+
+.third__thd__bar h4 {
+  margin-top: 0;
+}

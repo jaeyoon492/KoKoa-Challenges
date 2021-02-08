@@ -1,0 +1,30 @@
+.first__block {
+  width: 200px;
+  height: 400px;
+}
+
+.first__top__bar {
+  width: 200px;
+  height: 15px;
+  background-color: tomato;
+}
+
+.first__sec__bar {
+  background-color: white;
+  height: 50px;
+}
+
+.first__thd__bar {
+  background-color: white;
+  height: 50px;
+}
+
+.first__bot__bar {
+  width: 200px;
+  height: 265px;
+  background-color: tomato;
+}
+
+.first__thd__bar h4 {
+  margin-top: 0;
+}

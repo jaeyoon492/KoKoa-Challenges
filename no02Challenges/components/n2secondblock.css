@@ -1,0 +1,30 @@
+.second__block {
+  width: 200px;
+  height: 400px;
+}
+
+.second__top__bar {
+  width: 200px;
+  height: 15px;
+  background-color: teal;
+}
+
+.second__sec__bar {
+  background-color: white;
+  height: 50px;
+}
+
+.second__thd__bar {
+  background-color: white;
+  height: 50px;
+}
+
+.second__bot__bar {
+  width: 200px;
+  height: 265px;
+  background-color: teal;
+}
+
+.second__thd__bar h4 {
+  margin-top: 0;
+}

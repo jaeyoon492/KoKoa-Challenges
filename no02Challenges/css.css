@@ -1,0 +1,40 @@
+@import "components/n1firstblock.css";
+@import "components/n2secondblock.css";
+@import "components/n3thirdblock.css";
+@import "components/n4fourthblock.css";
+html {
+  padding: 80px;
+}
+body {
+  background-color: #f5f5f5;
+}
+
+#String {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bodybody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#firstline {
+  display: flex;
+}
+
+#secondline {
+  display: flex;
+}
+
+.mother__block {
+  padding: 5px;
+  background-color: white;
+  margin: 10px;
+}
+
+.father__block {
+  background-color: #f5f5f5;
+}
