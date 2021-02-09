@@ -1,0 +1,73 @@
+body {
+  background-color: #6bbcbe;
+}
+
+.three__dot {
+  margin-top: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: dotfilp 1s ease infinite;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0px 15px;
+}
+
+.five__bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar {
+  width: 13px;
+  height: 50px;
+  background-color: white;
+  margin: 140px 3px;
+  animation: musicbar 1s ease-in-out infinite;
+}
+
+@keyframes dotfilp {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(180deg);
+  }
+}
+
+@keyframes musicbar {
+  0% {
+    transform: scaleY(none);
+  }
+  25% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(2);
+  }
+  75% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(none);
+  }
+}
+
+.bar:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.bar:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.bar:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.bar:nth-child(5) {
+  animation-delay: 0.5s;
+}
