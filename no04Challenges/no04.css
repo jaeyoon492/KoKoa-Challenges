@@ -1,0 +1,13 @@
+@import "reset.css";
+
+body {
+  background-color: #00c6ad;
+}
+
+.title__box {
+  display: flex;
+}
+
+.playing__box {
+  display: flex;
+}
