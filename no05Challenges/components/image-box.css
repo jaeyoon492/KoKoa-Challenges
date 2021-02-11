@@ -1,0 +1,29 @@
+.four__img {
+  display: flex;
+  margin-left: 15px;
+}
+
+.image {
+  border-radius: 5px;
+  width: 70px;
+  height: 109px;
+  margin-right: 25px;
+}
+
+.stars1 {
+  margin-left: 3px;
+  display: flex;
+  margin-top: 6px;
+}
+
+.star__four1 i {
+  color: #ffce33;
+  font-size: 0.5px;
+  margin-right: 2px;
+}
+
+.last__star1 i {
+  margin-right: 2px;
+  color: #ededed;
+  font-size: 1px;
+}

@@ -1,0 +1,26 @@
+.grorge__rr_martin {
+  margin-left: 15px;
+  display: flex;
+}
+
+.grorge__rr_martin img {
+  width: 105px;
+  height: 132px;
+  border-radius: 5px;
+}
+
+.info {
+  margin-left: 25px;
+}
+
+.info span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.story {
+  margin-top: 10px;
+  opacity: 0.1;
+  font-size: 13px;
+  font-weight: 600;
+}

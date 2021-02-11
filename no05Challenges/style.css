@@ -1,0 +1,15 @@
+@import "reset.css";
+
+/* conponents */
+@import "components/titlebox.css";
+@import "components/searchbox.css";
+@import "components/subtitle.css";
+@import "components/main_box.css";
+@import "components/image-box.css";
+@import "components/writerinfo.css";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
